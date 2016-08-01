@@ -201,6 +201,12 @@
     <!-- Whether device supports double tap to wake -->
     <bool name="config_supportDoubleTapWake">true</bool>
 
+    <!-- Check the proximity sensor prior to waking up screen -->
+    <bool name="config_proximityCheckOnWake">true</bool>
+    <!--
+    <integer name="config_proximityCheckTimeout">100</integer>
+    -->
+
     <!-- Values for GPS configuration -->
     <string-array translatable="false" name="config_gpsParameters">
         <item>SUPL_HOST=supl.google.com</item>
