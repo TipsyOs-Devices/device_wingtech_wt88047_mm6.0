@@ -1,1 +1,3 @@
 type sysfs_dt2w, sysfs_type;
+# defined in device/qcom/sepolicy/common/file.te
+# type ims_socket, file_type;
